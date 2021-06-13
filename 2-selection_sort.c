@@ -23,7 +23,7 @@ void selection_sort(int *array, size_t size)
 		sub_i = idx + 1;
 		for (; sub_i <= size - 1; sub_i++)
 		{
-			if (array[islower] < array[sub_i])
+			if (array[islower] <= array[sub_i])
 				islower = islower;
 			else
 				islower = sub_i;
