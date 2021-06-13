@@ -14,6 +14,9 @@ void selection_sort(int *array, size_t size)
 	size_t islower;
 	int aux;
 
+	if (size < 2)
+		return;
+
 	while (idx <= size - 1)
 	{
 		islower = idx;
