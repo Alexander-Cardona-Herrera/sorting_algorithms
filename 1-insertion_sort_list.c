@@ -1,10 +1,9 @@
 #include "sort.h"
 
 /**
-* bubble_sort - sorts an array of integers in ascending order
-* using the Bubble sort algorithm
-* @array: the array to sort
-* @size: size of the array
+* insertion_sort - sorts an array of integers in ascending order
+* using the insertiont sort algorithm
+* @list: the array to sort
 * Return: Nothing
 */
 
