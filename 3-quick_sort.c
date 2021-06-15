@@ -73,5 +73,6 @@ int partition(int *array, int l, int r, size_t size)
 			}
 		}
 	}
+
 	return (i);
 }
